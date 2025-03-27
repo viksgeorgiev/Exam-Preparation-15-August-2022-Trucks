@@ -1,6 +1,5 @@
-﻿using System.Security.AccessControl;
+﻿using Newtonsoft.Json;
 using System.Text;
-using Newtonsoft.Json;
 using Trucks.Data.Models;
 using Trucks.Data.Models.Enums;
 using Trucks.DataProcessor.ImportDto;
@@ -8,8 +7,8 @@ using Trucks.Utilities;
 
 namespace Trucks.DataProcessor
 {
-    using System.ComponentModel.DataAnnotations;
     using Data;
+    using System.ComponentModel.DataAnnotations;
 
 
     public class Deserializer
