@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data.zip" />
+    <None Remove="zz_delete_obj_bin.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
@@ -16,7 +21,6 @@
 
   <ItemGroup>
     <Folder Include="DataProcessor\ExportDto\" />
-    <Folder Include="DataProcessor\ImportDto\" />
   </ItemGroup>
 
 </Project>
